@@ -4,7 +4,7 @@ import {Button, Carousel} from 'antd'
 import axios from 'axios'
 
 import './App.css'
-import Navbar from './components/Home';
+import Navbar from './components/Navbar';
 const Page2 = (props) => {
 
 const [cats, setCats] = useState([])
@@ -34,7 +34,7 @@ return (
         <Navbar></Navbar>
         <Button type="primary" onClick={getCats}> get the cats </Button>
         <h1> This is Page2 at your service</h1>
-<Carousel autoplay arrows>
+<Carousel autoplay >
 {images}
   
 </Carousel>

@@ -4,7 +4,7 @@ import '@popperjs/core'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Button from '@mui/material/Button';
-import Navbar from './components/Home';
+import Navbar from './components/Navbar';
 
 
 const Page1 = (props) => {
